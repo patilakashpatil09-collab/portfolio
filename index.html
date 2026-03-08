@@ -1,0 +1,211 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Akash Patil — Portfolio</title>
+  <meta name="description" content="Akash Patil — Software Developer. Portfolio with About, Professional Summary, Skills, Experience, Contact and Resume." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#0f1724"/>
+  <link rel="icon" href="assets/favicon.png" />
+  <!-- Font Awesome for icons (optional) -->
+  <script src="https://kit.fontawesome.com/a2d9b1b6f7.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#hero">Akash Patil</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Hey, I'm <span class="name">Akash Patil</span></h1>
+          <p class="hero-subtitle">“Aspiring Software Developer | Python Full-Stack | Java Full-Stack | Data Science Enthusiast” & also I  Building smart solutions that connect users with technology..</p>
+          <p class="typing"><span id="typing-text"></span><span class="cursor">|</span></p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Hire me</a>
+            <a class="btn outline" href="Akash1_resume.docx" download>Download Resume</a>
+          </div>
+          <ul class="social">
+            <li><a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-frame">
+            <img src="profile.jpg" alt="Akash Patil" />
+          </div>
+        </div>
+      </div>
+      <div class="animated-bg" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section container reveal">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div>
+          <p>Hello! I'm Akash — a software developer focused on building fast, accessible, and beautiful web applications. I enjoy turning complex problems into simple, intuitive products.</p>
+          <ul class="info-list">
+            <li><strong>Location:</strong> Kalaburagi | Karnataka Bengaluru, India</li>
+
+            <li><strong>Email:</strong> <a href="mailto:akash@example.com">patilakashpatil09@gmail.com</a></li>
+            <li><strong>Availability:</strong> Open for work</li>
+          </ul>
+
+        </div>
+        <div>
+          <h3>Quick facts</h3>
+          <ul class="facts">
+            <li><strong>0-1</strong> years building web apps</li>
+            <li><strong>Python & React </strong> focus</li>
+            <li><strong>User</strong> friendly interfaces</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="summary" class="section alt-bg reveal">
+      <div class="container">
+        <h2>Professional Summary</h2>
+        <p>Motivated Computer Science student skilled in Python and Java Full-Stack Development with an interest in Data Science. Experienced in developing web applications, working with databases, and solving real-world problems using programming and analytical skills. Passionate about learning new technologies and building efficient software solutions.       <div class="summary-cards">
+          <article class="card">
+            <h4>Focus</h4>
+            <p>Web apps, accessible UI, performance-driven front-end/back-end.</p>
+          </article>
+          <article class="card">
+            <h4>Approach</h4>
+            <p>Test-driven, component-first, iterative delivery.</p>
+          </article>
+          <article class="card">
+            <h4>Tools</h4>
+            <p>Python,React, TypeScript, Flask, Node, Git, Cypress.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container reveal">
+      <h2>Skills</h2>
+      <p class="muted">A snapshot of technologies and proficiencies. Bars animate when visible.</p>
+
+      <div class="skills-grid">
+        <div class="skills-list">
+          <div class="skill">
+            <div class="skill-meta">
+              <strong>JavaScript (ES6+)</strong><span>95%</span>
+            </div>
+            <div class="progress" data-progress="95"><span></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-meta">
+              <strong>Python</strong><span>92%</span>
+            </div>
+            <div class="progress" data-progress="92"><span></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-meta">
+              <strong>Java</strong><span>75%</span>
+            </div>
+            <div class="progress" data-progress="85"><span></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-meta">
+              <strong>HTML & CSS</strong><span>98%</span>
+            </div>
+            <div class="progress" data-progress="98"><span></span></div>
+          </div>
+        </div>
+
+        <div class="skill-chart">
+          <h4>Other tools</h4>
+          <ul class="tool-list">
+            <li>Node.js <small>• Backend basics</small></li>
+            <li>Git & CI <small>• GitHub Actions</small></li>
+            <li>Testing <small>• Jest / Cypress</small></li>
+            <li>Design <small>• Figma, accessibility</small></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt-bg reveal">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <time>2027 - Graduated</time>
+            <h3>Iam Freshers</h3>
+            <p>Eager and adaptable Freshers with excellent communication skills,looking to contribute positively to dynamic team and grow professionally.</p>
+          </article>
+
+                  </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container reveal">
+      <h2>Contact</h2>
+      <p class="muted">Prefer email? Send me a message — or use the form. Form posts to Formspree (replace endpoint with your own).</p>
+
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+          <div class="field-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" required />
+          </div>
+
+          <div class="field-row">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="_replyto" required />
+          </div>
+
+          <div class="field-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <input type="hidden" name="_subject" value="Portfolio message">
+          <button type="submit" class="btn primary">Send message</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <aside class="contact-card">
+          <h3>Get in touch</h3>
+          <p><strong>Email</strong><br><a href="mailto:akash@example.com">patilakashpatil09@gmail.com</a></p>
+          <p><strong>Location</strong><br>Kalaburagi | Karnataka Bengaluru, India</p>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>© <span id="year"></span> Akash Patil. Built with ❤️ — Customize this portfolio for your needs.</p>
+        <nav>
+        </nav>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
